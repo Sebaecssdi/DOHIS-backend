@@ -1,0 +1,34 @@
+# IntelliJ / IDE
+.idea/
+**/.idea/
+*.iml
+out/
+
+# Maven / build
+target/
+**/target/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local env / local config
+.env
+.env.*
+application-local.properties
+application-dev-local.properties
+
+# Secret files
+dohis-sa-key.json
+*-sa-key.json
+service-account*.json
+credentials*.json
+client_secret*.json
+
+# Temporary files
+*.tmp
+*.temp
