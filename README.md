@@ -54,3 +54,13 @@ You can also run the project from IntelliJ using the same environment variables.
 - `MONGODB_URI` must include the database name, not only the cluster host.
 - `GOOGLE_REDIRECT_URI` must exactly match the redirect URI configured in Google Cloud.
 - `APP_CORS_ALLOWED_ORIGINS` must be a comma-separated list.
+
+## Profiles
+
+- Default run: uses the base configuration.
+- `dev` profile: enables more verbose Spring Security logging.
+
+To run with the `dev` profile, set:
+
+```text
+SPRING_PROFILES_ACTIVE=dev
