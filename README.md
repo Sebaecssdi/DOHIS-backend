@@ -63,4 +63,20 @@ You can also run the project from IntelliJ using the same environment variables.
 To run with the `dev` profile, set:
 
 ```text
+
 SPRING_PROFILES_ACTIVE=dev
+
+## Validation
+
+To run the automated tests:
+
+```bash
+./mvnw test
+```
+
+On Windows PowerShell:
+
+```powershell
+.\mvnw.cmd test
+```
+The test suite uses its own test configuration from `src/test/resources/application.properties`.
