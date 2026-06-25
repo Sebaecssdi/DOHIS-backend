@@ -79,4 +79,4 @@ On Windows PowerShell:
 ```powershell
 .\mvnw.cmd test
 ```
-The test suite uses its own test configuration from `src/test/resources/application.properties`.
+The test suite uses the `test` profile and its configuration from `src/test/resources/application-test.properties`.
